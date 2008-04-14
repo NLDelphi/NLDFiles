@@ -1,0 +1,27 @@
+In deze ZIP vindt U de volgende bestanden:
+
+[Unit]
+--------
+UNLDFiles: de unit met de componenten
+
+[Testproject]
+-------------------
+TestProject.dpr: een testproject
+TestUnit.pas: unit behorende tot testproject
+Testunit.dfm: formulier van testunit
+TestProject.res:resourcebestand voor testproject
+
+[Help]
+----------
+UNLDFiles.cnt:Help contents bestand
+UNLDFiles.hlp: het helpbestand
+
+[Package]
+----------------
+UNLDFiles.dcr: bestand met icoontjes
+DclNLDFiles.dpk: package om te installeren
+DclNLDFiles.res:resourcebestand voor package
+
+[Readme]
+----------------
+_LeesMij.txt: wat U nu leest :D

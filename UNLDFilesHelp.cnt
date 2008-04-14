@@ -1,0 +1,43 @@
+;This help file was created with HelpScribble 7.3.2
+;Licensed to: Henk De Hauw
+
+:BASE UNLDFilesHelp.hlp
+:TITLE UNLDFiles Helpfile v1.0 by Henkie
+:LINK D7VCL.HLP
+1 UNLDFiles unit=Scribble1000
+1 TNLDFileSplitter
+2 TNLDFileSplitter component Reference=Scribble1010
+2 TNLDFileSplitter - Example=Scribble1001
+2 Properties
+3 AutoCreateDir=Scribble1020
+3 DestDir=Scribble1025
+3 FileName=Scribble1030
+3 NumberOfPieces=Scribble1035
+3 SizeOfPieces=Scribble1040
+3 SplitOptions=Scribble1045
+2 Methods
+3 Split=Scribble1050
+2 Events
+3 OnAfterSplit=Scribble1055
+3 OnBeforeSplit=Scribble1060
+3 OnSpliterror=Scribble1065
+1 TNLDFileMerger
+2 TNLDFileMerger component Reference=Scribble1100
+2 TNLDFileMerger - Example=Scribble1002
+2 Properties
+3 MergeFile=Scribble1110
+3 MergeOptions=Scribble1115
+3 SourceFile=Scribble1120
+2 Methods
+3 Merge=Scribble1125
+2 Events
+3 OnMerge=Scribble1130
+3 OnMergeError=Scribble1135
+1 Types
+2 TMergeError type=Scribble1200
+2 TMergeErrorEvent type=Scribble1205
+2 TMergeOptions type=Scribble1210
+2 TSplitCount type=Scribble1215
+2 TSplitError type=Scribble1220
+2 TSplitErrorEvent type=Scribble1225
+2 TSplitOptions type=Scribble1230
